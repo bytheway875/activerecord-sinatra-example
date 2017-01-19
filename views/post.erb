@@ -1,0 +1,9 @@
+<h1><%= @post.title %></h1>
+<h3> By:
+  <a href="/users/<%= @post.user.id %>">
+    <%= @post.user.first_name %>
+  </a>
+</h3>
+
+
+<p><%= @post.content %></p>
