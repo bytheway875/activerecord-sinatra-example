@@ -1,0 +1,15 @@
+body {
+  font-size: 20px;
+}
+.flash {
+  height: 100px;
+  font-weight: bold;
+}
+
+.flash.notice {
+  background-color: green;
+}
+
+.flash.warning {
+  background-color: red;
+}
